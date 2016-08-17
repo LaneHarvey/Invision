@@ -11,27 +11,136 @@
     align-items: center;
 }
 .branding-box {
-    padding-top:15px;
-    padding-bottom: 15px;
+    padding-top:10px;
+    padding-bottom: 10px;
     border: 3px solid white;
     color: white;
+    font-size: 25px;
     text-align: center;
     text-transform: uppercase;
     width:90%;
     margin:auto;
+}
+.invision-text {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top: 40px;
+    font-size: 10px;
+    font-weight: lighter;
+    letter-spacing: 2.3px;
+}
+.created-by {
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  align-self: flex-end;
+  color: white;
+  position: absolute;
+  padding-bottom: 50px;
+  font-size: 10px;
+  letter-spacing: 4px;
+  font-weight: lighter;
 }
 .product-container {
     height:45vh;
     width:90%;
     margin: 0 auto 25px;
     background: #ccc;
+    flex-wrap: wrap;
+}
+#shirt1 {
+  background-image:url("../img/shirt1.jpg");
+  background-size: cover;
+}
+#shirt2 {
+  background-image:url("../img/shirt2.jpg");
+  background-size: cover;
+}
+#shirt3 {
+  background-image:url("../img/shirt3.jpg");
+  background-size: cover;
+}
+#shirt4 {
+  background-image:url("../img/shirt4.jpg");
+  background-size: cover;
+}
+#shirt5 {
+  background-image:url("../img/shirt5.jpg");
+  background-size: cover;
+}
+#shirt6 {
+  background-image:url("../img/shirt6.jpg");
+  background-size: cover;
+}
+#shirt7 {
+  background-image:url("../img/shirt7.jpg");
+  background-size: cover;
+}
+.end-section {
+  height:100vh;
+  width:100%;
+  background-color: black;
+  /*padding-top: calc(50vh - 30px);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brought-by {
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  align-self: flex-start;
+  color: white;
+  position: absolute;
+  padding-top: 100px;
+  font-size: 10px;
+  letter-spacing: 4px;
+  font-weight: 300;
 }
 @media(min-width:425px) {
   .product-container {
       height:45vh;
-      width:45%;
+      width:300px;
       margin: 0 auto 25px;
       background: #ccc;
 }
+.bottom-section{
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+align-items: flex-start;
+background-position: center;
+}
+#shirt1 {
+  width: 45%;
+  background-size: cover;
+  background-position: center;
+}
+#shirt2 {
+  width: 45%;
+  background-size: cover;
+  background-position: center;
+}
+#shirt3 {
+  width: 90%;
+}
+#shirt4 {
+  width: 45%;
+  background-size: cover;
+  background-position: center;
+}
+#shirt5 {
+  width: 45%;
+  background-size: cover;
+  background-position: center;
+}
+#shirt6 {
+  width: 90%;
+}
+#shirt7 {
+  width: 90%;
+}
+}
 @media(min-width:700px) {
-  
